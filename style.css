@@ -1,26 +1,29 @@
 *,
 *:before,
-*:after{
+*:after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100vh;
-    background: linear-gradient(135deg,#8967B3,#CB80AB);
+    background: linear-gradient(135deg, #8967B3, #CB80AB);
     font-family: 'Poppins', sans-serif;
 }
-.container{
+
+.container {
     border: 2px solid white;
     width: 40%;
     min-width: 450px;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     padding: 30px 40px;
 }
-#new-task{
+
+#new-task {
     background: #ffffff;
     padding: 30px 20px;
     border-radius: 5px;
@@ -28,7 +31,7 @@ body{
 
 }
 
-#new-task input{
+#new-task input {
     width: 70%;
     height: 45px;
     font-size: 15px;
@@ -39,11 +42,13 @@ body{
     position: relative;
     border-radius: 5px;
 }
-#new-task input:focus{
+
+#new-task input:focus {
     outline: none;
     border-color: #8967B3;
 }
-#new-task button{
+
+#new-task button {
     position: relative;
     float: right;
     width: 20%;
@@ -59,7 +64,7 @@ body{
 
 }
 
-#tasks{
+#tasks {
     background-color: #ffffff;
     padding: 30px 20px;
     margin-top: 60px;
@@ -67,4 +72,32 @@ body{
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     width: 100%;
     position: relative;
+}
+
+.task {
+    background-color: white;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #CB80AB;
+    cursor: pointer;
+}
+
+.task span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background-color: #624E88;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
 }
