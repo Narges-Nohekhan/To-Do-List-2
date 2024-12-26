@@ -4,11 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 body{
     height: 100vh;
     background: linear-gradient(135deg,#8967B3,#CB80AB);
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     border: 2px solid white;
